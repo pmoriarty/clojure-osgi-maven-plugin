@@ -9,6 +9,7 @@ import java.io.IOException;
 
 /**
  * @goal check-manifest
+ * @phase verify
  *
  * @author pmoriarty 2/28/12 3:38 PM
  */
