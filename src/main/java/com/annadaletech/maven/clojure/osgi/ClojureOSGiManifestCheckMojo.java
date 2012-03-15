@@ -8,10 +8,9 @@ import org.apache.maven.plugin.MojoFailureException;
 import java.io.IOException;
 
 /**
- * TODO: Check exports too, could mark namespace declarations as exportable
  *
  * @goal check-manifest
- * @phase verify
+ * @phase prepare-package
  *
  * @author pmoriarty 2/28/12 3:38 PM
  */
