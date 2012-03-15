@@ -4,7 +4,7 @@
 
     <groupId>com.annadaletech</groupId>
     <artifactId>clojure-osgi-maven-plugin</artifactId>
-    <version>0.1.2</version>
+    <version>0.1.3-SNAPSHOT</version>
 
     <packaging>maven-plugin</packaging>
 
