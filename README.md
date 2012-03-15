@@ -4,13 +4,13 @@ Updates an OSGi MANIFEST.MF Import-Package and Export-Package headers based on n
 
 ## Usage
 
-Goal:
+Goal:  
    check-manifest - adds missing imports and exports to the manifest
 
-Parameters:
-   baseDir - location of Clojure source files (defaults to src/main/clojure)
-   manifest - location of MANIFEST.MF file (defaults to src/main/resources/META-INF/MANIFEST.MF)
-   ignore - list of packages to ignore (space separated)
+Parameters:  
+   baseDir - location of Clojure source files (defaults to src/main/clojure)  
+   manifest - location of MANIFEST.MF file (defaults to src/main/resources/META-INF/MANIFEST.MF)  
+   ignore - list of packages to ignore (space separated)  
 
 ## License
 
