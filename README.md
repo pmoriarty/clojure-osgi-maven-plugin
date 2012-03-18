@@ -4,7 +4,31 @@ Updates an OSGi MANIFEST.MF Import-Package and Export-Package headers based on n
 
 ## Usage
 
-Goal:  
+Example: To add missing clojure packages to the Import-Package and Export-Package headers of an existing manifest (eg. as created by maven-bundle-plugin).
+
+```
+<plugin>
+    <groupId>com.annadaletech</groupId>
+    <artifactId>clojure-osgi-maven-plugin</artifactId>
+    <version>0.1.3</version>
+    <configuration>
+        <manifest>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifest>
+    </configuration>
+    <executions>
+        <execution>
+            <id>check-manifest</id>
+            <goals>
+                <goal>check-manifest</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+```
+
+See https://gist.github.com/2052857 for a detailed example.
+
+
+Goals:
    check-manifest - adds missing imports and exports to the manifest
 
 Parameters:  
